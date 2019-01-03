@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="105dp"
+        android:layout_height="136dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_image"
+        android:src="@drawable/bigben"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintLeft_toRightOf="@id/name1"
+
+        app:layout_constraintTop_toBottomOf="@id/name1" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="bigben"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+        />
+    <RatingBar
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RatingBar"
+        android:isIndicator="true"
+        app:layout_constraintTop_toBottomOf="@id/name1"
+        style="?android:attr/ratingBarStyleIndicator"
+        ></RatingBar>
+
+
+    <TextView
+        android:id="@+id/littledesc"
+        android:layout_width="223dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="London's iconic national timepiece"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintRight_toLeftOf="@id/Image"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rate" />
+
+
+
+</android.support.constraint.ConstraintLayout>
