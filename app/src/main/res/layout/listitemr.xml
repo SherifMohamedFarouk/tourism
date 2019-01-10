@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/Imager"
+        android:layout_width="105dp"
+        android:layout_height="136dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_image"
+        android:src="@drawable/bigben"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/name1r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="bigben"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+       app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/Imager"
+        />
+
+
+    />
+    <RatingBar
+        android:id="@+id/rater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RatingBar"
+        android:isIndicator="true"
+        style="?android:attr/ratingBarStyleIndicator"
+        app:layout_constraintTop_toBottomOf="@id/name1r"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/littledescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="5-star hotel"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rater"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

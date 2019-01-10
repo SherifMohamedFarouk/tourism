@@ -148,6 +148,111 @@ public class DetailActivity extends AppCompatActivity {
 
 
         }
+        else if(g.contains("The Savoy")){
+            Glide.with(Context)
+                    .load(R.drawable.savoy)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("The Ritz London")){
+            Glide.with(Context)
+                    .load(R.drawable.theritz)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Corinthia Hotel London")){
+            Glide.with(Context)
+                    .load(R.drawable.corinthiahotel)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Park Plaza Westminster Bridge London")){
+            Glide.with(Context)
+                    .load(R.drawable.parkplaza)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("The Langham, London")){
+            Glide.with(Context)
+                    .load(R.drawable.thelangham)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Sofitel London St James")){
+            Glide.with(Context)
+                    .load(R.drawable.sofitellondon)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Hilton London Bankside")){
+            Glide.with(Context)
+                    .load(R.drawable.hiltonlodon)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Ace Hotel")){
+            Glide.with(Context)
+                    .load(R.drawable.acehotel)
+                    .into(imageView);
+
+
+        }
+        else   if(g.contains("The Ledbury")){
+            Glide.with(Context)
+                    .load(R.drawable.theledbury)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Gymkhana")){
+            Glide.with(Context)
+                    .load(R.drawable.gymkhana)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("St. John")){
+            Glide.with(Context)
+                    .load(R.drawable.stjhon)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("The Wolseley")){
+            Glide.with(Context)
+                    .load(R.drawable.thewolseley)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Hawksmoor")){
+            Glide.with(Context)
+                    .load(R.drawable.hawksmoor)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("The Clove Club")){
+            Glide.with(Context)
+                    .load(R.drawable.thecloveclub)
+                    .into(imageView);
+
+
+        }
+        else  if(g.contains("Kiln")){
+            Glide.with(Context)
+                    .load(R.drawable.kiln)
+                    .into(imageView);
+
+
+        }
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
